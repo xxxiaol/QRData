@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://kit.fontawesome.com/f8ddf9854a.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Are LLMs Capable of Data-based Statistical and Causal Reasoning? Benchmarking Advanced Quantitative Reasoning with Data">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QRData</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/icon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/explorer-index.js"></script>
+  <script src="./static/js/question_card.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title is-bold">
+            <img src="./static/images/icon.svg" style="width:1em;vertical-align: middle" alt="Logo"/>
+            <span style="vertical-align: middle">QRData</span>
+            </h1>
+          <h2 class="subtitle is-4 publication-subtitle">
+            Are LLMs Capable of Data-based Statistical and Causal Reasoning? Benchmarking Advanced Quantitative Reasoning with Data
+          </h2>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://xxxiaol.github.io/">Xiao Liu</a><sup style="color:#ed4b82">1</sup>,</span>
+            <span class="author-block">
+              <a href="https://williamzr.github.io/">Zirui Wu</a><sup style="color:#ed4b82">1</sup>,</span>
+            <span class="author-block">
+              <a href="https://shirley-wu.github.io/">Xueqing Wu</a><sup style="color:#ffac33">2</sup>,</span>
+            <span class="author-block">
+              <a href="https://lupantech.github.io/">Pan Lu</a><sup style="color:#ffac33">2</sup>,</span>
+            <span class="author-block">
+              <a href="http://web.cs.ucla.edu/~kwchang/">Kai-Wei Chang</a><sup style="color:#ffac33">2</sup>,</span>
+            <span class="author-block">
+              <a href="https://sites.google.com/site/ysfeng/home">Yansong Feng</a><sup style="color:#ed4b82">1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup style="color:#ed4b82">1</sup>Peking University,</span>
+            <span class="author-block"><sup style="color:#ffac33">2</sup>University of California Los Angeles</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/xxxiaol/QRData"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="#examples"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon has-text-white">
+                    <i class="fa-solid fa-book"></i>
+                  </span>
+                  <span>Examples</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+        <div class="content has-text-centered">
+          <img src="static/images/example.png" alt="Example from the dataset" width="100%"/>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column has-text-centered">
+        <h2 class="title is-3">Introduction</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            Quantitative reasoning is a critical skill to analyze data, yet the assessment of such ability remains limited. To address this gap, we introduce the <b>Quantitative Reasoning with Data (QRData)</b> benchmark, aiming to evaluate Large Language Models' capability in <b>statistical and causal reasoning with real-world data</b>. The benchmark comprises a carefully constructed dataset of 411 questions accompanied by data sheets from textbooks, online learning materials, and academic papers. To compare models' quantitative reasoning abilities on data and text, we enrich the benchmark with an auxiliary set of 290 text-only questions, namely <b>QRText</b>. 
+          </p>
+
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/intro.png" width="50%">
+              <p> Examples of advanced quantitative reasoning questions and reasoning steps.
+              </p>
+            </div>
+          </div>
+
+          <p>
+            We evaluate natural language reasoning, program-based reasoning, and agent reasoning methods including Chain-of-Thought, Program-of-Thoughts, ReAct, and code interpreter assistants on diverse models. The strongest model GPT-4 achieves an accuracy of <b>58%</b>, which has a large room for improvement. Among open-source models, Deepseek-coder-instruct, a code LLM pretrained on 2T tokens, gets the highest accuracy of <b>37%</b>. Analysis reveals that models encounter difficulties in <b>data analysis</b> and <b>causal reasoning</b>, and struggle in using causal knowledge and provided data simultaneously.
+          </p>
+
+          <p>
+            Our benchmark has its unique challenges:
+            <ul>
+              <li><strong>Our benchmark requires <b>advanced quantitative knowledge and skills</b>.</strong>
+                <br>Models need to know what are common methods of statistical/causal reasoning and how to utilize them.
+              </li> 
+              <li><strong>Our benchmark requires <b>multi-turn</b> reasoning.</strong>
+                <br>After execution of model generated code, models need to read the execution results, and write subsequent code or interpret the results to produce the final answer. 
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DATASET SECTION -->
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+  <h1 class="title is-1 section-title">
+    <img src="static/images/icon.svg" style="width:1em;vertical-align: middle" alt="Logo"/>
+    <span style="vertical-align: middle">QRData Benchmark</span>
+  </h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            We introduce QRData, the first benchmark for advanced quantitative reasoning with data, to assess models' abilities of data-based statistical and causal reasoning. To ensure the quality of our benchmark, we first gather <b>quantitative reasoning teaching and research resources</b>, and then annotate questions based on the materials. We collect <b>multiple-choice questions and numerical questions</b> from these resources, and ensure that the gold answer is unique. We also collect <b>data descriptions</b> like the purpose and format of the data sheets from the resources, and provide them along with questions to models.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column" style="margin-right: -20rem;">
+        <div class="content has-text-centered">
+          <img src="static/images/statistics.png" alt="dataset statistics" style="max-width: 50%;"/>
+          <p> 
+            Statistics of QRData.<br/>
+          </p> 
+        </div>
+      </div>
+      <div class="column">
+        <div class="content has-text-centered">
+          <img src="static/images/keyword.png" alt="dataset keywords" style="max-width: 56%;"/>
+          <p>
+              Key concepts in QRData.<br/>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" id="examples">Examples of QRData</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/qrdata_example1.png" width="95%"/>
+              <p>Example 1 (source: <a href="https://www.openintro.org/book/os/">OpenIntro statistics</a>)</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/qrdata_example2.png" width="95%"/>
+              <p>Example 2 (source: <a href="https://github.com/kosukeimai/qss">Quantitative social science</a>)</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/qrdata_example3.png" width="95%"/>
+              <p>Example 3 (source: <a href="https://matheusfacure.github.io/python-causality-handbook/landing-page.html">Causal inference for the brave and true</a>)</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/qrdata_example4.png" width="95%"/>
+              <p>Example 4 (source: <a href="https://www.science.org/doi/abs/10.1126/science.1105809">Flow cytometry</a>)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Auxiliary Benchmark: QRText</h2>
+        <div class="content has-text-justified">
+          <p>
+            To <b>separate the challenge of quantitative reasoning from data analysis</b> and analyze whether models master the quantitative reasoning skills, we create an auxiliary benchmark for comparison called <b>Quantitative Reasoning with Text (QRText)</b>. Questions in QRText can be answered <b>without data</b>. QRText contains 290 questions, 100 for statistical reasoning and 190 for causal reasoning. For ease of model comparison, the ratio of statistical/causal questions of QRText is similar to QRData. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Examples of QRText</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/qrtext_example1.png" width="95%"/>
+              <p>Example 1 (source: <a href="https://www.openintro.org/book/os/">OpenIntro statistics</a>)</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/qrtext_example2.png" width="95%"/>
+              <p>Example 2 (source: <a href="https://github.com/causalNLP/cladder">CLadder</a>)</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/qrtext_example3.png" width="95%"/>
+              <p>Example 3 (source: <a href="https://github.com/causalNLP/corr2cause">Corr2Cause</a>)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS SECTION -->
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+  <h1 class="title is-1 section-title">
+    <span style="vertical-align: middle">Results</span>
+  </h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <p>
+            We develop several zero-shot reasoning methods as our baselines:
+          </p>
+          <ul>
+            <li><strong>Table Question Answering (Table QA):</strong> The task of table QA asks models to answer a question based on tables. To evaluate if our benchmark can be solved by existing table QA methods, we select a competitive model <a href="https://osu-nlp-group.github.io/TableLlama/">TableLlama</a>.</li> 
+            <li><strong>Chain-of-Thought (CoT):</strong> CoT prompting enables models to conduct complex natural language reasoning through intermediate reasoning steps.</li>
+            <li><strong>Program-of-Thoughts (PoT):</strong> PoT prompting asks models to generate a Python code program, and uses an external computer to execute the code. The output of the code is regarded as the answer.</li>
+            <li><strong>ReAct-style Prompting:</strong> ReAct is a prevalent prompting paradigm for agent reasoning. It combines reasoning and acting in language models for task solving. To address our task, we restrict the action space to Python code execution, and ask models to generate <i>thoughts</i> and <i>actions</i>.</li>
+            <li><strong>Code Interpreter Assistants:</strong> GPT models can be used as agents (called <i>assistants</i>), and a code interpreter tool is built-in, which could execute Python code in a sandbox to interpret the data. </li>
+          </ul>
+          <p>
+            We experiment with the CoT, PoT, and ReAct-style prompting methods on the following models:
+          </p>
+          <ul>
+            <li><strong>General-Purpose LLMs:</strong> <a href="https://llama.meta.com/">Llama-2-chat</a>, <a href="https://deepmind.google/technologies/gemini/#introduction">Gemini-Pro</a> and <a href="https://openai.com/gpt-4">GPT-4</a></li> 
+            <li><strong>Code LLMs:</strong> <a href="https://ai.meta.com/blog/code-llama-large-language-model-coding/">CodeLlama-instruct</a> and <a href="https://deepseekcoder.github.io/">Deepseek-coder-instruct</a></li>
+            <li><strong>LLM for Mathematical Reasoning:</strong> <a href="https://wizardlm.github.io/WizardMath/">WizardMath</a></li>
+            <li><strong>LLM for Agent Reasoning:</strong> <a href="https://thudm.github.io/AgentTuning/">AgentLM</a></li>
+          </ul>
+        </div>
+        <div class="box m-5">
+          <div class="content has-text-centered">
+            <img src="static/images/main_results.png" width="95%">
+            <p> Performance of models on QRData. Numbers are accuracies in percentages (%). The best results are in bold. For models evaluated with multiple reasoning methods, the model-level best results are underlined.
+            </p>
+          </div>
+        </div>        
+        <div class="content has-text-justified">
+          <p>
+            GPT-4 with the code interpreter assistant achieves the best performance, and Deepseek-coder-instruct with PoT prompting is the best among open-source models. The best model is <b>18%</b> worse than human, showing that QRData is challenging for LLMs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" id="failure_case">GPT-4 Failure Case</h2>
+        <div class="box m-5">
+          <div class="content has-text-centered">
+            <img src="static/images/case_failure.png" width="95%"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">What are main difficulties of LLMs?</h2>
+        <div class="content has-text-justified">
+          <p>
+            We go deeper into the primary difficulties models face in addressing the task of quantitative reasoning with data. This may provide insights into how to design methods to better solve our task. 
+          </p>
+        </div>
+        <h2 class="title is-4">Difficulty of Data Analysis</h2>
+        <div class="content has-text-justified">
+          <p>
+            We evaluate models on our auxiliary benchmark QRText, and compare the performance on QRText and QRData to quantify the difficulty of data analysis.
+          </p>
+        </div>
+        <div class="box m-5">
+          <div class="content has-text-centered">
+            <img src="static/images/qrtext_results.png" width="55%">
+            <p> Performance of models on QRText. Numbers are accuracies in percentages (%). Best results are in bold, and model-level best results are underlined.
+            </p>
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            All models perform better on QRText than QRData from 1.8% to 11.5%, and the gap is larger for smaller models. If we control the knowledge and skills required by restricting questions to the same source (the book OpenIntro statistics), models perform <b>6%</b> better on average. These provide evidence that most models have difficulty in data analysis.
+          </p>
+        </div>
+        <h2 class="title is-4">Difficulty of Causal Reasoning</h2>
+        <div class="content has-text-justified">
+          <p>
+            We observe the performance gap between statistical reasoning and causal reasoning on QRData, and the gap remains on QRText. GPT-4 achieves 89% accuracy in statistical questions on QRText, but only about <b>half the accuracy in causal questions</b>. This exhibits the unique difficulty of causal reasoning regardless of data analysis.
+          </p>
+          <p>
+            As shown in the <a href="#failure_case">failure case of GPT-4</a>, when asked to predict the causal relation between two variables <i>L L1 radiculopathy</i> and <i>R L5 radiculopathy</i>, GPT-4 proposes a wrong plan of calculating the conditional probabilities in Step 2. As <b>correlation does not imply causation</b>, although GPT-4 successfully executes the plan, it makes a wrong prediction. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+
+    </code></pre>
+  </div>
+</section> -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is website adapted from <a href="https://nerfies.github.io/">Nerfies</a> and <a href="https://mathvista.github.io/">MathVista</a>, licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
