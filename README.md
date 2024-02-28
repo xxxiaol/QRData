@@ -1,6 +1,6 @@
 # QRData
 Are LLMs Capable of Data-based Statistical and Causal Reasoning? Benchmarking Advanced Quantitative Reasoning with Data
-<!-- [<a href="https://arxiv.org/abs/"> Paper </a>] --><a href="https://xxxiaol.github.io/QRData/">[Project Website]</a>
+<a href="https://arxiv.org/abs/2402.17644">[Paper]</a> <a href="https://xxxiaol.github.io/QRData/">[Project Website]</a>
 
 ## Benchmark
 We provide the questions of quantitative reasoning with data (QRData) in `benchmark/QRData.json`. It contains 411 questions with the following keys.
@@ -23,5 +23,10 @@ The script for evaluation is in 'benchmark/eval.py'.
 ## Citation
  Please cite our paper if this repository inspires your work.
 ```
-TBA
+@article{liu2024llms,
+    title={Are LLMs Capable of Data-based Statistical and Causal Reasoning? Benchmarking Advanced Quantitative Reasoning with Data},
+    author={Liu, Xiao and Wu, Zirui and Wu, Xueqing and Lu, Pan and Chang, Kai-Wei and Feng, Yansong},
+    journal={arXiv preprint arXiv:2402.17644},
+    year={2024}
+}
 ```
