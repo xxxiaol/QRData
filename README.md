@@ -23,10 +23,23 @@ The script for evaluation is in 'benchmark/eval.py'.
 ## Citation
  Please cite our paper if this repository inspires your work.
 ```
-@article{liu2024llms,
-    title={Are LLMs Capable of Data-based Statistical and Causal Reasoning? Benchmarking Advanced Quantitative Reasoning with Data},
-    author={Liu, Xiao and Wu, Zirui and Wu, Xueqing and Lu, Pan and Chang, Kai-Wei and Feng, Yansong},
-    journal={arXiv preprint arXiv:2402.17644},
-    year={2024}
+@inproceedings{liu-etal-2024-llms,
+    title = "Are {LLM}s Capable of Data-based Statistical and Causal Reasoning? Benchmarking Advanced Quantitative Reasoning with Data",
+    author = "Liu, Xiao  and
+      Wu, Zirui  and
+      Wu, Xueqing  and
+      Lu, Pan  and
+      Chang, Kai-Wei  and
+      Feng, Yansong",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.548",
+    pages = "9215--9235",
 }
 ```
