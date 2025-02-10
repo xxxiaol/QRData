@@ -1549,7 +1549,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Obesity has a direct effect on diabetes and lifespan. Smoking has a direct effect on diabetes and lifespan. Diabetes has a direct effect on lifespan. Smoking is unobserved.\nFor normal weight people and without diabetes, the probability of long lifespan is 76%. For normal weight people and with diabetes, the probability of long lifespan is 47%. For obese people and without diabetes, the probability of long lifespan is 53%. For obese people and with diabetes, the probability of long lifespan is 27%. For normal weight people and nonsmokers, the probability of having diabetes is 25%. For normal weight people and smokers, the probability of having diabetes is 48%. For obese people and nonsmokers, the probability of having diabetes is 61%. For obese people and smokers, the probability of having diabetes is 89%. The overall probability of smoker is 2%.",
     "question": "What is the natural indirect effect from obesity to lifespan through diabetes? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.1",
+    "answer": "-0.11",
     "meta_data": {
       "reference": "Cladder question_id 3147",
       "keywords": [
@@ -1588,7 +1588,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Tijv has a direct effect on tijw and xevo. Xevo has a direct effect on gyzp. Tijw has a direct effect on gyzp.\nFor those who are not xevo and are not tijw, the probability of gyzp is 2%. For those who are not xevo and are tijw, the probability of gyzp is 37%. For those who are xevo and are not tijw, the probability of gyzp is 61%. For those who are xevo and are tijw, the probability of gyzp is 94%. For those who are not xevo, the probability of tijw is 56%. For those who are xevo, the probability of tijw is 66%.",
     "question": "For those who are xevo, how much would the probability of gyzp change if the individual was not xevo? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.58",
+    "answer": "-0.61",
     "meta_data": {
       "reference": "Cladder question_id 22049",
       "keywords": [
@@ -1614,7 +1614,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Obesity has a direct effect on diabetes and lifespan. Smoking has a direct effect on diabetes and lifespan. Diabetes has a direct effect on lifespan. Smoking is unobserved.\nFor normal weight people, the probability of long lifespan is 64%. For obese people, the probability of long lifespan is 50%.",
     "question": "For obese people, how much would the probability of long lifespan change if the person had been normal weight? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.15",
+    "answer": "0.14",
     "meta_data": {
       "reference": "Cladder question_id 8028",
       "keywords": [
@@ -1679,7 +1679,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Tijw has a direct effect on xevo and gyzp. Xevo has a direct effect on tijv. Tijv has a direct effect on gyzp. Tijw is unobserved.\nFor those who are not xevo and are not tijv, the probability of gyzp is 40%. For those who are not xevo and are tijv, the probability of gyzp is 59%. For those who are xevo and are not tijv, the probability of gyzp is 44%. For those who are xevo and are tijv, the probability of gyzp is 55%. For those who are not xevo, the probability of tijv is 67%. For those who are xevo, the probability of tijv is 39%.",
     "question": "For those who are xevo, how much would the probability of gyzp change if the individual was not xevo? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.03",
+    "answer": "0.04",
     "meta_data": {
       "reference": "Cladder question_id 21896",
       "keywords": [
@@ -1692,7 +1692,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Muvy has a direct effect on kwox and kwoz. Kwox has a direct effect on swoq. Swoq has a direct effect on kwoz. Muvy is unobserved.\nFor those who are not kwox, the probability of swoq is 73%. For those who are kwox, the probability of swoq is 87%. For those who are not kwox and are not swoq, the probability of kwoz is 24%. For those who are not kwox and are swoq, the probability of kwoz is 59%. For those who are kwox and are not swoq, the probability of kwoz is 35%. For those who are kwox and are swoq, the probability of kwoz is 41%. The overall probability of kwox is 47%.",
     "question": "What is the natural indirect effect from kwox to kwoz through swoq? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.03",
+    "answer": "0.01",
     "meta_data": {
       "reference": "Cladder question_id 21427",
       "keywords": [
@@ -1705,7 +1705,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Liking spicy food has a direct effect on occupation and salary. Skill has a direct effect on occupation and salary. Occupation has a direct effect on salary. Skill is unobserved.\nFor individuals who do not like spicy food, the probability of high salary is 38%. For individuals who like spicy food, the probability of high salary is 34%.",
     "question": "What is the average treatment effect from liking spicy food to high salary? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.05",
+    "answer": "-0.04",
     "meta_data": {
       "reference": "Cladder question_id 17783",
       "keywords": [
@@ -1770,7 +1770,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Unobserved confounders has a direct effect on maternal smoking status and infant's birth weight. Cigarette tax has a direct effect on maternal smoking status. Maternal smoking status has a direct effect on infant's birth weight. Unobserved confounders is unobserved.\nFor areas with low cigarette tax, the probability of normal infant birth weight is 45%. For areas with high cigarette tax, the probability of normal infant birth weight is 58%. For areas with low cigarette tax, the probability of smoking mother is 63%. For areas with high cigarette tax, the probability of smoking mother is 27%.",
     "question": "What is the average treatment effect from smoking mother to normal infant birth weight? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.38",
+    "answer": "-0.36",
     "meta_data": {
       "reference": "Cladder question_id 4702",
       "keywords": [
@@ -1796,7 +1796,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: CEO has a direct effect on director and having visited England. Having visited England has a direct effect on employee. Director has a direct effect on employee.\nFor people who have not visited England and directors who don't sign termination letters, the probability of employee being fired is 3%. For people who have not visited England and directors who sign termination letters, the probability of employee being fired is 52%. For people who have visited England and directors who don't sign termination letters, the probability of employee being fired is 43%. For people who have visited England and directors who sign termination letters, the probability of employee being fired is 85%. For people who have not visited England, the probability of director signing the termination letter is 22%. For people who have visited England, the probability of director signing the termination letter is 78%.",
     "question": "For people who have visited England, how much would the probability of employee being fired change if the person had not visited England? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.34",
+    "answer": "-0.62",
     "meta_data": {
       "reference": "Cladder question_id 10752",
       "keywords": [
@@ -1809,7 +1809,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Ability to swim has a direct effect on studying habit and exam score. Studying habit has a direct effect on exam score.\nFor students who cannot swim and do not study hard, the probability of high exam score is 15%. For students who cannot swim and study hard, the probability of high exam score is 51%. For students who can swim and do not study hard, the probability of high exam score is 61%. For students who can swim and study hard, the probability of high exam score is 86%. For students who cannot swim, the probability of studying hard is 4%. For students who can swim, the probability of studying hard is 97%.",
     "question": "What is the natural indirect effect from ability to swim to exam score through studying habit? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.34",
+    "answer": "0.23",
     "meta_data": {
       "reference": "Cladder question_id 12508",
       "keywords": [
@@ -1822,7 +1822,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: The camper has a direct effect on the forest. The smoker has a direct effect on the forest.\nFor campers who do not light a match, the probability of the forest on fire is 87%. For campers who light a match, the probability of the forest on fire is 53%.",
     "question": "What is the average treatment effect from the camper lighting a match to the forest on fire? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.33",
+    "answer": "-0.34",
     "meta_data": {
       "reference": "Cladder question_id 5565",
       "keywords": [
@@ -1835,7 +1835,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Kidney stone size has a direct effect on treatment and recovery. Treatment has a direct effect on recovery.\nFor patients who have small kidney stones and not receiving treatment, the probability of recovery is 3%. For patients who have small kidney stones and receiving treatment, the probability of recovery is 15%. For patients who have large kidney stones and not receiving treatment, the probability of recovery is 79%. For patients who have large kidney stones and receiving treatment, the probability of recovery is 91%. The overall probability of large kidney stone is 60%.",
     "question": "What is the average treatment effect from receives treatment to recovery? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.13",
+    "answer": "0.12",
     "meta_data": {
       "reference": "Cladder question_id 3789",
       "keywords": [
@@ -1965,7 +1965,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Obesity has a direct effect on diabetes and lifespan. Smoking has a direct effect on diabetes and lifespan. Diabetes has a direct effect on lifespan. Smoking is unobserved.\nFor normal weight people, the probability of long lifespan is 63%. For obese people, the probability of long lifespan is 53%.",
     "question": "For obese people, how much would the probability of long lifespan change if the person had been normal weight? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.09",
+    "answer": "0.10",
     "meta_data": {
       "reference": "Cladder question_id 8076",
       "keywords": [
@@ -1991,7 +1991,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Full moon has a direct effect on sprinkler and weather. Weather has a direct effect on ground. Sprinkler has a direct effect on ground.\nFor situations where there is no full moon, the probability of wet ground is 32%. For situations where there is a full moon, the probability of wet ground is 37%.",
     "question": "For situations where there is a full moon, how much would the probability of wet ground change if there were a full moon? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.04",
+    "answer": "0.05",
     "meta_data": {
       "reference": "Cladder question_id 11051",
       "keywords": [
@@ -2017,7 +2017,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gender has a direct effect on occupation and salary. Skill has a direct effect on occupation and salary. Occupation has a direct effect on salary. Skill is unobserved.\nFor individuals who are not male and blue-collar workers, the probability of high salary is 26%. For individuals who are not male and white-collar workers, the probability of high salary is 61%. For individuals who are male and blue-collar workers, the probability of high salary is 55%. For individuals who are male and white-collar workers, the probability of high salary is 68%. For individuals who are not male and with low skill levels, the probability of white-collar job is 40%. For individuals who are not male and with high skill levels, the probability of white-collar job is 15%. For individuals who are male and with low skill levels, the probability of white-collar job is 2%. For individuals who are male and with high skill levels, the probability of white-collar job is 24%. The overall probability of high skill level is 11%.",
     "question": "If we disregard the mediation effect through occupation, what is the natural direct effect from gender to salary? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.27",
+    "answer": "0.21",
     "meta_data": {
       "reference": "Cladder question_id 2506",
       "keywords": [
@@ -2030,7 +2030,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Zuph has a direct effect on rixq and xevu. Rixq has a direct effect on xevu.\nFor those who are not zuph and are not rixq, the probability of xevu is 96%. For those who are not zuph and are rixq, the probability of xevu is 16%. For those who are zuph and are not rixq, the probability of xevu is 59%. For those who are zuph and are rixq, the probability of xevu is 51%. The overall probability of zuph is 19%.",
     "question": "For those who are rixq, how much would the probability of xevu change if the individual was not rixq? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.79",
+    "answer": "0.66",
     "meta_data": {
       "reference": "Cladder question_id 25261",
       "keywords": [
@@ -2069,7 +2069,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Swoy has a direct effect on rixq and xevu. Rixq has a direct effect on zuph. Zuph has a direct effect on xevu. Swoy is unobserved.\nFor those who are not rixq, the probability of zuph is 29%. For those who are rixq, the probability of zuph is 59%. For those who are not rixq and are not zuph, the probability of xevu is 77%. For those who are not rixq and are zuph, the probability of xevu is 57%. For those who are rixq and are not zuph, the probability of xevu is 73%. For those who are rixq and are zuph, the probability of xevu is 58%. The overall probability of rixq is 64%.",
     "question": "What is the natural indirect effect from rixq to xevu through zuph? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.05",
+    "answer": "-0.06",
     "meta_data": {
       "reference": "Cladder question_id 25358",
       "keywords": [
@@ -2082,7 +2082,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Cwoi has a direct effect on yomx and xevu. Yomx has a direct effect on gwet. Gwet has a direct effect on xevu. Cwoi is unobserved.\nFor those who are not yomx, the probability of gwet is 47%. For those who are yomx, the probability of gwet is 21%. For those who are not yomx and are not gwet, the probability of xevu is 77%. For those who are not yomx and are gwet, the probability of xevu is 75%. For those who are yomx and are not gwet, the probability of xevu is 76%. For those who are yomx and are gwet, the probability of xevu is 75%. The overall probability of yomx is 18%.",
     "question": "What is the natural indirect effect from yomx to xevu through gwet? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.0",
+    "answer": "0.01",
     "meta_data": {
       "reference": "Cladder question_id 22284",
       "keywords": [
@@ -2095,7 +2095,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Tijv has a direct effect on tijw and xevo. Xevo has a direct effect on gyzp. Tijw has a direct effect on gyzp.\nFor those who are not tijv and are not xevo, the probability of gyzp is 29%. For those who are not tijv and are xevo, the probability of gyzp is 14%. For those who are tijv and are not xevo, the probability of gyzp is 11%. For those who are tijv and are xevo, the probability of gyzp is 16%. The overall probability of tijv is 88%.",
     "question": "What is the average treatment effect from xevo to gyzp? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.02",
+    "answer": "0.03",
     "meta_data": {
       "reference": "Cladder question_id 26408",
       "keywords": [
@@ -2121,7 +2121,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: The captain has a direct effect on the private and the corporal. The corporal has a direct effect on prisoner. The private has a direct effect on prisoner.\nFor captains who release prisoners, the probability of the prisoner's death is 83%. For captains who execute prisoners, the probability of the prisoner's death is 93%.",
     "question": "For captains who execute prisoners, how much would the probability of the prisoner's death change if the captain had ordered the release of the prisoner? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.09",
+    "answer": "-0.10",
     "meta_data": {
       "reference": "Cladder question_id 503",
       "keywords": [
@@ -2134,7 +2134,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Pexu has a direct effect on rukz. Hwax has a direct effect on rukz.\nFor those who are not pexu, the probability of rukz is 29%. For those who are pexu, the probability of rukz is 65%.",
     "question": "For those who are pexu, how much would the probability of rukz change if the individual was not pexu? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.37",
+    "answer": "-0.36",
     "meta_data": {
       "reference": "Cladder question_id 29113",
       "keywords": [
@@ -2160,7 +2160,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Listening to jazz has a direct effect on tar deposit. Tar deposit has a direct effect on lung cancer.\nFor people who do not listen to jazz, the probability of lung cancer is 34%. For people who listen to jazz, the probability of lung cancer is 51%.",
     "question": "For people who listen to jazz, how much would the probability of lung cancer change if the person did not listen to jazz? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.16",
+    "answer": "-0.17",
     "meta_data": {
       "reference": "Cladder question_id 14939",
       "keywords": [
@@ -2199,7 +2199,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gene has a direct effect on smoking and lung cancer. Pollution has a direct effect on smoking and lung cancer. Smoking has a direct effect on lung cancer. Pollution is unobserved.\nFor people with nonsmoking genes and nonsmokers, the probability of lung cancer is 29%. For people with nonsmoking genes and smokers, the probability of lung cancer is 61%. For people with smoking genes and nonsmokers, the probability of lung cancer is 20%. For people with smoking genes and smokers, the probability of lung cancer is 63%. For people with nonsmoking genes and with low pollution, the probability of smoking is 28%. For people with nonsmoking genes and with high pollution, the probability of smoking is 61%. For people with smoking genes and with low pollution, the probability of smoking is 54%. For people with smoking genes and with high pollution, the probability of smoking is 97%. The overall probability of high pollution is 45%.",
     "question": "What is the natural indirect effect from gene to lung cancer through smoking? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.07",
+    "answer": "0.13",
     "meta_data": {
       "reference": "Cladder question_id 4428",
       "keywords": [
@@ -2212,7 +2212,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Having a brother has a direct effect on skill. Skill has a direct effect on salary.\nFor people who do not have a brother, the probability of high salary is 27%. For people who have a brother, the probability of high salary is 41%.",
     "question": "What is the natural indirect effect from having a brother to salary through skill? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.13",
+    "answer": "0.14",
     "meta_data": {
       "reference": "Cladder question_id 16868",
       "keywords": [
@@ -2251,7 +2251,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gyzp has a direct effect on jyka and lirg. Hwax has a direct effect on jyka. Jyka has a direct effect on lirg. Gyzp is unobserved.\nFor those who are not hwax, the probability of lirg is 77%. For those who are hwax, the probability of lirg is 82%. For those who are not hwax, the probability of jyka is 48%. For those who are hwax, the probability of jyka is 33%.",
     "question": "What is the average treatment effect from jyka to lirg? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.35",
+    "answer": "-0.33",
     "meta_data": {
       "reference": "Cladder question_id 22784",
       "keywords": [
@@ -2277,7 +2277,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Drinking coffee has a direct effect on wife and alarm clock. Wife has a direct effect on alarm clock.\nFor people who do not drink coffee, the probability of ringing alarm is 50%. For people who drink coffee, the probability of ringing alarm is 64%.",
     "question": "For people who drink coffee, how much would the probability of ringing alarm change if the person did not drink coffee? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.13",
+    "answer": "-0.14",
     "meta_data": {
       "reference": "Cladder question_id 10401",
       "keywords": [
@@ -2316,7 +2316,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Medication has a direct effect on blood pressure and heart condition. Blood pressure has a direct effect on heart condition.\nFor people not taking any medication and with low blood pressure, the probability of healthy heart is 56%. For people not taking any medication and with high blood pressure, the probability of healthy heart is 83%. For people taking medication and with low blood pressure, the probability of healthy heart is 27%. For people taking medication and with high blood pressure, the probability of healthy heart is 51%. For people not taking any medication, the probability of high blood pressure is 41%. For people taking medication, the probability of high blood pressure is 71%.",
     "question": "If we disregard the mediation effect through blood pressure, what is the natural direct effect from medication to heart condition? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.31",
+    "answer": "-0.30",
     "meta_data": {
       "reference": "Cladder question_id 6223",
       "keywords": [
@@ -2329,7 +2329,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Zory has a direct effect on zuph and glimx. Zuph has a direct effect on jyka. Jyka has a direct effect on glimx. Zory is unobserved.\nFor those who are not zuph, the probability of jyka is 84%. For those who are zuph, the probability of jyka is 52%. For those who are not zuph and are not jyka, the probability of glimx is 34%. For those who are not zuph and are jyka, the probability of glimx is 33%. For those who are zuph and are not jyka, the probability of glimx is 41%. For those who are zuph and are jyka, the probability of glimx is 29%. The overall probability of zuph is 48%.",
     "question": "What is the natural indirect effect from zuph to glimx through jyka? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.02",
+    "answer": "0.00",
     "meta_data": {
       "reference": "Cladder question_id 24956",
       "keywords": [
@@ -2342,7 +2342,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Having a sister has a direct effect on tar deposit. Tar deposit has a direct effect on lung cancer.\nFor people who do not have a sister, the probability of lung cancer is 35%. For people who have a sister, the probability of lung cancer is 51%.",
     "question": "What is the average treatment effect from having a sister to lung cancer? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.17",
+    "answer": "0.16",
     "meta_data": {
       "reference": "Cladder question_id 19698",
       "keywords": [
@@ -2368,7 +2368,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Pre-conditions has a direct effect on vaccination and disease. Vaccination has a direct effect on disease.\nFor people with no pre-conditions and refusing the vaccine, the probability of recovering from the disease is 95%. For people with no pre-conditions and getting the vaccine, the probability of recovering from the disease is 80%. For people with pre-conditions and refusing the vaccine, the probability of recovering from the disease is 30%. For people with pre-conditions and getting the vaccine, the probability of recovering from the disease is 19%. The overall probability of pre-conditions is 58%.",
     "question": "For people getting the vaccine, how much would the probability of recovering from the disease change if the person had not refused the vaccine? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.15",
+    "answer": "0.13",
     "meta_data": {
       "reference": "Cladder question_id 8747",
       "keywords": [
@@ -2381,7 +2381,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: CEO has a direct effect on director and having visited England. Having visited England has a direct effect on employee. Director has a direct effect on employee.\nFor people who have not visited England and directors who don't sign termination letters, the probability of employee being fired is 21%. For people who have not visited England and directors who sign termination letters, the probability of employee being fired is 64%. For people who have visited England and directors who don't sign termination letters, the probability of employee being fired is 63%. For people who have visited England and directors who sign termination letters, the probability of employee being fired is 99%. For people who have not visited England, the probability of director signing the termination letter is 60%. For people who have visited England, the probability of director signing the termination letter is 64%.",
     "question": "For people who have visited England, how much would the probability of employee being fired change if the person had not visited England? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.38",
+    "answer": "-0.39",
     "meta_data": {
       "reference": "Cladder question_id 10705",
       "keywords": [
@@ -2407,7 +2407,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Muvy has a direct effect on kwox and kwoz. Kwox has a direct effect on swoq. Swoq has a direct effect on kwoz. Muvy is unobserved.\nFor those who are not kwox, the probability of swoq is 92%. For those who are kwox, the probability of swoq is 8%. For those who are not kwox and are not swoq, the probability of kwoz is 35%. For those who are not kwox and are swoq, the probability of kwoz is 50%. For those who are kwox and are not swoq, the probability of kwoz is 37%. For those who are kwox and are swoq, the probability of kwoz is 51%. The overall probability of kwox is 18%.",
     "question": "What is the average treatment effect from kwox to kwoz? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.13",
+    "answer": "-0.12",
     "meta_data": {
       "reference": "Cladder question_id 21431",
       "keywords": [
@@ -2420,7 +2420,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Jyka has a direct effect on yupt and kwox. Yupt has a direct effect on kwox.\nFor those who are not jyka, the probability of kwox is 81%. For those who are jyka, the probability of kwox is 27%.",
     "question": "What is the average treatment effect from jyka to kwox? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.53",
+    "answer": "-0.54",
     "meta_data": {
       "reference": "Cladder question_id 23179",
       "keywords": [
@@ -2433,7 +2433,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: My decision has a direct effect on penguin mood and foot size. Penguin mood has a direct effect on foot size.\nFor those who choose to take the stairs, the probability of large feet is 43%. For those who choose to take the elevator, the probability of large feet is 50%.",
     "question": "What is the average treatment effect from taking the elevator to large feet? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.06",
+    "answer": "0.07",
     "meta_data": {
       "reference": "Cladder question_id 11444",
       "keywords": [
@@ -2446,7 +2446,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Vaccination status has a direct effect on vaccination reaction and getting smallpox. Getting smallpox has a direct effect on black hair. Vaccination reaction has a direct effect on black hair.\nFor unvaccinated individuals, the probability of black hair is 42%. For vaccinated individuals, the probability of black hair is 33%.",
     "question": "What is the natural indirect effect from vaccination status to black hair through getting smallpox and vaccination reaction? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.1",
+    "answer": "-0.09",
     "meta_data": {
       "reference": "Cladder question_id 16448",
       "keywords": [
@@ -2459,7 +2459,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gender has a direct effect on smoking and freckles. Smoking has a direct effect on tar deposit. Tar deposit has a direct effect on freckles. Gender is unobserved.\nFor nonsmokers and with no tar deposit, the probability of freckles is 79%. For nonsmokers and with high tar deposit, the probability of freckles is 49%. For smokers and with no tar deposit, the probability of freckles is 73%. For smokers and with high tar deposit, the probability of freckles is 41%. For nonsmokers, the probability of high tar deposit is 66%. For smokers, the probability of high tar deposit is 29%.",
     "question": "For smokers, how much would the probability of freckles change if the person had been a nonsmoker? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.12",
+    "answer": "-0.05",
     "meta_data": {
       "reference": "Cladder question_id 19407",
       "keywords": [
@@ -2472,7 +2472,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gender has a direct effect on smoking and lung cancer. Smoking has a direct effect on tar deposit. Tar deposit has a direct effect on lung cancer. Gender is unobserved.\nFor nonsmokers, the probability of high tar deposit is 56%. For smokers, the probability of high tar deposit is 83%. For nonsmokers and with no tar deposit, the probability of lung cancer is 42%. For nonsmokers and with high tar deposit, the probability of lung cancer is 83%. For smokers and with no tar deposit, the probability of lung cancer is 48%. For smokers and with high tar deposit, the probability of lung cancer is 74%. The overall probability of smoking is 45%.",
     "question": "What is the natural indirect effect from smoking to lung cancer through tar deposit? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.09",
+    "answer": "0.11",
     "meta_data": {
       "reference": "Cladder question_id 4264",
       "keywords": [
@@ -2485,7 +2485,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Hwax has a direct effect on kraz and pexu. Pexu has a direct effect on rukz. Kraz has a direct effect on rukz.\nFor those who are not pexu and are not kraz, the probability of rukz is 76%. For those who are not pexu and are kraz, the probability of rukz is 64%. For those who are pexu and are not kraz, the probability of rukz is 22%. For those who are pexu and are kraz, the probability of rukz is 12%. For those who are not pexu, the probability of kraz is 85%. For those who are pexu, the probability of kraz is 5%.",
     "question": "For those who are pexu, how much would the probability of rukz change if the individual was not pexu? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.54",
+    "answer": "0.44",
     "meta_data": {
       "reference": "Cladder question_id 24682",
       "keywords": [
@@ -2498,7 +2498,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gender has a direct effect on smoking and peanut allergy. Smoking has a direct effect on tar deposit. Tar deposit has a direct effect on peanut allergy. Gender is unobserved.\nFor nonsmokers, the probability of high tar deposit is 18%. For smokers, the probability of high tar deposit is 64%. For nonsmokers and with no tar deposit, the probability of being allergic to peanuts is 46%. For nonsmokers and with high tar deposit, the probability of being allergic to peanuts is 77%. For smokers and with no tar deposit, the probability of being allergic to peanuts is 17%. For smokers and with high tar deposit, the probability of being allergic to peanuts is 43%. The overall probability of smoking is 49%.",
     "question": "What is the natural indirect effect from smoking to peanut allergy through tar deposit? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.13",
+    "answer": "0.12",
     "meta_data": {
       "reference": "Cladder question_id 14679",
       "keywords": [
@@ -2511,7 +2511,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: CEO has a direct effect on director and manager. Manager has a direct effect on foot size. Director has a direct effect on foot size.\nFor managers who don't sign termination letters and directors who don't sign termination letters, the probability of large feet is 83%. For managers who don't sign termination letters and directors who sign termination letters, the probability of large feet is 44%. For managers who sign termination letters and directors who don't sign termination letters, the probability of large feet is 48%. For managers who sign termination letters and directors who sign termination letters, the probability of large feet is 6%. For managers who don't sign termination letters, the probability of director signing the termination letter is 35%. For managers who sign termination letters, the probability of director signing the termination letter is 38%.",
     "question": "For managers who sign termination letters, how much would the probability of large feet change if the manager had signed the termination letter? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.36",
+    "answer": "-0.37",
     "meta_data": {
       "reference": "Cladder question_id 15478",
       "keywords": [
@@ -2563,7 +2563,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gender has a direct effect on smoking and freckles. Smoking has a direct effect on tar deposit. Tar deposit has a direct effect on freckles. Gender is unobserved.\nFor nonsmokers and with no tar deposit, the probability of freckles is 62%. For nonsmokers and with high tar deposit, the probability of freckles is 28%. For smokers and with no tar deposit, the probability of freckles is 61%. For smokers and with high tar deposit, the probability of freckles is 27%. For nonsmokers, the probability of high tar deposit is 97%. For smokers, the probability of high tar deposit is 45%.",
     "question": "For smokers, how much would the probability of freckles change if the person had been a nonsmoker? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.18",
+    "answer": "-0.17",
     "meta_data": {
       "reference": "Cladder question_id 19400",
       "keywords": [
@@ -2615,7 +2615,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Unobserved confounders has a direct effect on education level and foot size. Proximity to a college has a direct effect on education level. Education level has a direct effect on foot size. Unobserved confounders is unobserved.\nFor people living far from a college, the probability of large feet is 42%. For people living close to a college, the probability of large feet is 53%. For people living far from a college, the probability of college degree or higher is 61%. For people living close to a college, the probability of college degree or higher is 34%.",
     "question": "What is the average treatment effect from college degree or higher to large feet? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "-0.42",
+    "answer": "-0.41",
     "meta_data": {
       "reference": "Cladder question_id 17061",
       "keywords": [
@@ -2641,7 +2641,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Kidney stone size has a direct effect on ability to speak english and recovery. Ability to speak english has a direct effect on recovery.\nFor patients who have small kidney stones and do not speak english, the probability of recovery is 94%. For patients who have small kidney stones and speak english, the probability of recovery is 80%. For patients who have large kidney stones and do not speak english, the probability of recovery is 18%. For patients who have large kidney stones and speak english, the probability of recovery is 5%. The overall probability of large kidney stone is 58%.",
     "question": "For patients who speak english, how much would the probability of recovery change if the patient did not speak english? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.14",
+    "answer": "0.13",
     "meta_data": {
       "reference": "Cladder question_id 18948",
       "keywords": [
@@ -2667,7 +2667,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: My decision has a direct effect on penguin mood and penguin survival. Penguin mood has a direct effect on penguin survival.\nFor those who choose to take the stairs, the probability of penguin death is 45%. For those who choose to take the elevator, the probability of penguin death is 34%.",
     "question": "For those who choose to take the elevator, how much would the probability of penguin death change if I had taken the stairs? Please answer with a positive number if the probability increases, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.1",
+    "answer": "0.11",
     "meta_data": {
       "reference": "Cladder question_id 1071",
       "keywords": [
@@ -2693,7 +2693,7 @@
   {
     "data_description": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Zuph has a direct effect on jyka and glimx. Zory has a direct effect on jyka and glimx. Jyka has a direct effect on glimx. Zory is unobserved.\nFor those who are not zuph and are not jyka, the probability of glimx is 40%. For those who are not zuph and are jyka, the probability of glimx is 49%. For those who are zuph and are not jyka, the probability of glimx is 42%. For those who are zuph and are jyka, the probability of glimx is 52%. For those who are not zuph and are not zory, the probability of jyka is 72%. For those who are not zuph and are zory, the probability of jyka is 28%. For those who are zuph and are not zory, the probability of jyka is 32%. For those who are zuph and are zory, the probability of jyka is 6%. The overall probability of zory is 50%.",
     "question": "If we disregard the mediation effect through jyka, what is the natural direct effect from zuph to glimx? Please answer with a positive number if the effect is positive, a negative number otherwise, and round to the nearest hundredth.",
-    "answer": "0.06",
+    "answer": "0.03",
     "meta_data": {
       "reference": "Cladder question_id 25041",
       "keywords": [
