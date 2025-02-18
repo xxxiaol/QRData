@@ -1,3 +1,4 @@
+
 # QRData
 Are LLMs Capable of Data-based Statistical and Causal Reasoning? Benchmarking Advanced Quantitative Reasoning with Data
 <a href="https://arxiv.org/abs/2402.17644">[Paper]</a> <a href="https://xxxiaol.github.io/QRData/">[Project Website]</a>
@@ -12,11 +13,8 @@ We provide the questions of quantitative reasoning with data (QRData) in `benchm
 
 Data files related to the questions are in `benchmark/data.zip`.
 
-Questions of quantitative reasoning with text (QRText) are in `benchmark/QRText.json`. It contains 290 questions with the following keys.
- - `data_description`
- - `question`
- - `answer`
- - `meta_data`: a dict contains `reference`, `keywords`, `question_type`, and `multiple_choices` (the possible choices if `question_type` is 'multiple_choice').
+~~Questions of quantitative reasoning with text (QRText) are in `benchmark/QRText.json`.~~ 
+Some numerical questions in QRText encounter measurement errors. We will release the corrected version in the future.
 
 The script for evaluation is in 'benchmark/eval.py'. 
 
